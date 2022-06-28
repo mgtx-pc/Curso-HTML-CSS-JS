@@ -1,0 +1,44 @@
+/*************************[TAG - SELECTORS]**********************************/
+*{
+    margin: 0;
+}
+
+body{
+    margin:0;
+    text-align: center;
+}
+
+
+/*************************[CLASS - SELECTORS]**********************************/
+
+.top-container{
+    background-color: #DFF6FF;
+    position: relative;
+    padding-top: 100px;
+}
+
+.midle-container{
+    border: solid;
+    border-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    border: solid;
+    border-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
